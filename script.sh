@@ -1,8 +1,5 @@
 #!/bin/bash
 
-su
-sudo usermod -aG sudo $(whoami)
-
 sudo apt update
 sudo apt upgrade
 sudo apt remove gnome-2048 -y
